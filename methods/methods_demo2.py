@@ -22,8 +22,9 @@ def sum_nums_return(a, b, c):
     """
     return a + b + c
 
-
+# returns nothing
 x = sum_nums(1, 2, 3)
+
 y = sum_nums_return(1, 2, 3)
 
 print(x)
