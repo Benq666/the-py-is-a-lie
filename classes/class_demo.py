@@ -42,4 +42,3 @@ print(human.get_gender())
 human.info()
 
 print(human.info()['Gender'])
-
