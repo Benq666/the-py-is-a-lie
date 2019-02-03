@@ -14,7 +14,7 @@ def get_net_income(state, gross_income):
     if state in state_taxes:
         state_tax = state_taxes[state]
         net_income = gross_income - gross_income * (state_tax + fed_tax)
-        print('Gross income in {} is {}$\nNet income is {:.2f}$\n'
+        print('Gross income in {} is {}$\nNet income is {:.2f}$'
               .format(state, gross_income, net_income))
         return net_income
     else:
@@ -22,4 +22,4 @@ def get_net_income(state, gross_income):
         return None
 
 
-get_net_income('NY', 100000)
+# get_net_income('NY', 100000)
